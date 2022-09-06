@@ -7,16 +7,16 @@
 Blockchains were a revolutionary invention bringing together cryptogaphy and austrian economics to enable provable ownership and transfer of digital assets, which was previously not solved due to the double spend problem.
 
 2. **A smart contract** is a code written to a blockchain that can automatically execute actions when it's predefined conditions are met.
-3. - **A script** reads from a blockchain and does not cost anything .
+3. - **A script** reads from a blockchain and does not cost anything.
 
    - **A transaction**  is interacting with a blockchain and requires a transaction fee to execute
 
 ## Day 2
 
-1. **The 5 pillars of Cadence**
+1. **The 5 pillars of Cadence:**
    - Safety & security 
    - Clarity 
    - Approachability
    - Developer Experience 
    - Resource Oriented
-2.  All of these points are directly addressing weaknesses in Solidity
+2.  All of these points are directly addressing weaknesses in Solidity.
