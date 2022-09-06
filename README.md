@@ -9,7 +9,7 @@ Blockchains were a revolutionary invention bringing together cryptogaphy and aus
 2. **A smart contract** is a code written to a blockchain that can automatically execute actions when it's predefined conditions are met.
 3. - **A script** reads from a blockchain and does not cost anything.
 
-   - **A transaction**  is interacting with a blockchain and requires a transaction fee to execute
+   - **A transaction**  interacts with a blockchain and requires a transaction fee to execute
 
 ## Day 2
 
