@@ -13,7 +13,7 @@ Blockchains were a revolutionary invention bringing together cryptogaphy and aus
 
 ## Day 2
 
-1&2. **The 5 pillars of Cadence**
+1. **The 5 pillars of Cadence**
    - Safety & security 
    - Clarity 
    - Approachability
