@@ -26,3 +26,52 @@ Blockchains were a revolutionary invention bringing together cryptogaphy and aus
 ## Day 1
 ![Transaction](Assets/2.1.1.png)
 ![Script](Assets/2.1.2.png)
+
+## Day 2
+1. We wouldn't call changeGreeting in a script because it requires change and therefore a transaction.
+
+2. AuthAccount is used to access the data in your account.
+
+3. - Prepare phase is to access the information in your account.
+   - Execute phase is to change data on the blockchain.
+  
+4. Code
+
+**Contract**
+pub contract HelloWorld {
+
+    pub var greeting: String
+    pub var myNumber: Int
+
+    pub fun changeGreeting(newGreeting: String) {
+        self.greeting = newGreeting
+    }
+
+    pub fun updateMyNumber(newNumber: Int) {
+        self.myNumber = newNumber
+    }
+
+    init() {
+        self.greeting = "Hello, World!"
+        self.myNumber = 0
+    }
+}
+
+**Script**
+import HelloWorld from 0x01
+
+pub fun main(): Int {
+    return HelloWorld.myNumber
+}
+
+**Transaction**
+import HelloWorld from 0x01
+
+transaction(myNewNumber: Int) {
+
+  prepare(signer: AuthAccount) {}
+
+  execute {
+    HelloWorld.updateMyNumber(newNumber: myNewNumber)
+  }
+}
