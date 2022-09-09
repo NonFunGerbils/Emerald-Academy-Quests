@@ -24,3 +24,5 @@ Blockchains were a revolutionary invention bringing together cryptogaphy and aus
 # Chapter 2
 
 ## Day 1
+![Transaction](2.1.1.png)
+![Script](2.1.2.png)
