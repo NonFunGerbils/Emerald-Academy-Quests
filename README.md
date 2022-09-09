@@ -28,9 +28,9 @@ Blockchains were a revolutionary invention bringing together cryptogaphy and aus
 ![Script](Assets/2.1.2.png)
 
 ## Day 2
-1. We wouldn't call changeGreeting in a script because it requires change and therefore a transaction.
+1. We wouldn't call changeGreeting in a script because it requires change and therefore a transaction. Also a scripts cannot implement functions such as 'changeGreeting'.
 
-2. AuthAccount is used to access the data in your account.
+2. AuthAccount is used to request access to the user's account.
 
 3. - Prepare phase is to access the information in your account.
    - Execute phase is to change data on the blockchain.
