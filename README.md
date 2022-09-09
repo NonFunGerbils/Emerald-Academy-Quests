@@ -20,3 +20,7 @@ Blockchains were a revolutionary invention bringing together cryptogaphy and aus
    - Developer Experience 
    - Resource Oriented
 2.  All of these points are directly addressing weaknesses in Solidity.
+
+# Chapter 2
+
+## Day 1
