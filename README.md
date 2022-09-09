@@ -38,6 +38,8 @@ Blockchains were a revolutionary invention bringing together cryptogaphy and aus
 4. Code
 
 **Contract**
+
+```
 pub contract HelloWorld {
 
     pub var greeting: String
@@ -56,8 +58,11 @@ pub contract HelloWorld {
         self.myNumber = 0
     }
 }
+```
 
 **Script**
+
+```
 import HelloWorld from 0x01
 
 pub fun main(): Int {
@@ -65,6 +70,8 @@ pub fun main(): Int {
 }
 
 **Transaction**
+
+```
 import HelloWorld from 0x01
 
 transaction(myNewNumber: Int) {
@@ -75,3 +82,4 @@ transaction(myNewNumber: Int) {
     HelloWorld.updateMyNumber(newNumber: myNewNumber)
   }
 }
+```
